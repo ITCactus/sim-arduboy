@@ -17,12 +17,7 @@ tweaked for [ClockWork(_GameSH>_)](https://clockworkpi.com)
 > git clone --recursive https://github.com/ITCactus/sim-arduboy.git
 ```
 
-* navigate to `sim-arduboy` folder:
-``` ShellSession
-> cd sim-arduboy
-```
-
-* copy `22_ArduBoy` folder to the desires Launcher's menu folder. \
+* copy `22_ArduBoy` folder to the desired Launcher's menu folder. \
 e.g. for main menu copy to `/home/cpi/apps/Menu`:
 ``` ShellSession
 > cp -r ~/games/ArduBoy/sim-arduboy/22_ArduBoy ~/apps/Menu/
