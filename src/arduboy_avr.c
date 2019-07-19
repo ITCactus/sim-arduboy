@@ -85,6 +85,7 @@ static void avr_callback_sleep_sync(
 		avr_t *avr,
 		avr_cycle_count_t how_long)
 {
+	return;
 	struct timespec tp;
 
 	/* figure out how long we should wait to match the sleep deadline */
