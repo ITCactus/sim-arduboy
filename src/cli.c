@@ -60,7 +60,7 @@ int parse_cmdline(int argc, char *argv[], struct sim_arduboy_opts *opts)
 
 	/* set defaults */
 	opts->gdb_port = 1234;
-	opts->pixel_size = 2;
+	opts->pixel_size = 2.5f;
 	opts->key2btn = default_key2btn;
 	/* parse command line */
 	while ((ch = getopt(argc, argv, "hdvk:g:p:")) != -1) {

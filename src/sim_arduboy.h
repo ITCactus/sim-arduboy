@@ -48,7 +48,7 @@ struct sim_arduboy_opts {
 	bool debug;
 	int *key2btn;
 	int verbose;
-	int pixel_size;
+	float pixel_size;
 	int win_width;
 	int win_height;
 };
