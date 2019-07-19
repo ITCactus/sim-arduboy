@@ -37,8 +37,8 @@ int default_key2btn[BTN_COUNT] = {
 	SDLK_DOWN,
 	SDLK_LEFT,
 	SDLK_RIGHT,
-	SDLK_z,
-	SDLK_x,
+	SDLK_j,
+	SDLK_k,
 };
 
 static inline enum button_e key_to_button_e(int keysym)
@@ -121,7 +121,7 @@ int arduboy_sdl_loop(void)
 				if (event.key.repeat)
 					continue;
 				/* handle quit 'q' keypress */
-				if (event.key.keysym.sym == SDLK_q) {
+				if (event.key.keysym.sym == SDLK_ESCAPE) {
 					return -1;
 				}
 				key_event(event.key.keysym.sym, true);
