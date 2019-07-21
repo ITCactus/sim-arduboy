@@ -23,7 +23,16 @@ e.g. for main menu copy to `/home/cpi/apps/Menu`:
 > cp -r ~/games/ArduBoy/sim-arduboy/22_ArduBoy ~/apps/Menu/
 ```
 
+* build/rebuild:
+``` ShellSession
+> sudo apt-get update && sudo apt-get install build-essential libelf-dev libsdl2-dev freeglut3-dev
+> cd ~/games/ArduBoy/sim-arduboy/
+> make
+```
+
 * restart the Launcher on _GameSH>_ (or reboot it)
+
+* make sure, you switched to the `Lima` GPU driver via `Settings->GPU Driver Switch->Lima driver` (with Fbturbo, emulator either running too slow, or not starting at all)
 
 * put some ArduBoy games (hex-files. you can find some [here](https://community.arduboy.com/c/games)) into `/home/cpi/games/ArduBoy` folder
 
@@ -35,9 +44,8 @@ e.g. for main menu copy to `/home/cpi/apps/Menu`:
 
 * SSH to your _GameSH>_
 * setup Dependencies:
-
 ``` ShellSession
-> sudo apt update && sudo apt install build-essential libelf-dev libsdl2-dev freeglut3-dev
+> sudo apt-get update && sudo apt-get install build-essential libelf-dev libsdl2-dev freeglut3-dev
 ```
 
 * build/rebuild:
