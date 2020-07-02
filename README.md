@@ -30,6 +30,11 @@ e.g. for main menu copy to `/home/cpi/apps/Menu`:
 > make
 ```
 
+* make it executable:
+``` ShellSession
+> chmod +x ~/games/ArduBoy/sim-arduboy/sim_arduboy
+```
+
 * restart the Launcher on _GameSH>_ (or reboot it)
 
 * make sure, you switched to the `Lima` GPU driver via `Settings->GPU Driver Switch->Lima driver` (with Fbturbo, emulator either running too slow, or not starting at all)
@@ -55,6 +60,11 @@ e.g. for main menu copy to `/home/cpi/apps/Menu`:
 > make
 ```
 
+* make it executable:
+``` ShellSession
+> chmod +x ~/games/ArduBoy/sim-arduboy/sim_arduboy
+```
+
 ### Limitations
 * emulation speed is not accurate (feel free to contribute improvements for it to the *current* repo)
 * no sound emulated (feel free to contribute improvements for it to the *original* `sim-arduboy` repo)
@@ -62,4 +72,4 @@ e.g. for main menu copy to `/home/cpi/apps/Menu`:
 
 
 ### Note
-tested on *__ClockWork OS__* v0.4 and *__Launcher__* 1.25
+tested on *__ClockWork OS__* v0.5 and *__Launcher__* 1.25
